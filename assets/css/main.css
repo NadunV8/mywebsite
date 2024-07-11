@@ -1069,8 +1069,8 @@ section,
 
 .pricing .pricing-item h4 {
   margin: 0;
-  font-size: 18px;
-  color: var(--accent-color);
+  font-size: 16px;
+  /* color: var(--accent-color); */
 }
 
 /*--------------------------------------------------------------
@@ -1172,7 +1172,7 @@ section,
 
 .testimonials:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
   inset: 0;
   z-index: 2;
